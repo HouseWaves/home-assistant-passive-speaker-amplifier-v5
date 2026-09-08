@@ -1,10 +1,10 @@
-# V5 - DIY $50 Connect any passive speaker to Home Assistant with ESPHome SendSpin, Snapcast, AirPlay, Squeezelite for multi-room synchronized audio and tts notifications.
+# V5 - DIY $50 Connect any passive speaker to Home Assistant with ESPHome SendSpin, Snapcast, AirPlay, Squeezelite for multi-room synchronized audio and TTS notifications.
 
 
 
 ### Quickly connect your existing passive speakers to Home Assistant using open-source hardware and open-source firmware (ESPHome with SendSpin and many other options) for multi-room synchronized audio and TTS notifications. No cloud, no subscriptions, no integrations. 
 
-### Instead of purchasing a dedicated and expensive streaming amplifier (Wiim, Arylic, Fosi, Sonos, Roon) and then wrestling with custom HA integrations that restrict your speaker locations with speaker wires -- use this to locate them anywhere you have an outlet...
+### Instead of purchasing a dedicated and expensive streaming amplifier (Wiim, Arylic, Fosi, Sonos, etc.) and then wrestling with custom HA integrations that restrict your speaker locations with speaker wires -- use this to locate them anywhere you have an outlet...
 
 
 
@@ -16,7 +16,7 @@
 
 
 
-![connected_legacy_speakers_to_esphome_home_assistant](images/connected_legacy_speakers_to_esphome_home_assistant.jpg)
+![connected-legacy-speakers-to-esphome-home-assistant](images/connected-legacy-speakers-to-esphome-home-assistant.jpg)
 
 *A passive bookshelf speaker (Pioneer) connected to Home Assistant using off-the-shelf ESP32 board.*
 
@@ -24,7 +24,7 @@
 
 ## See and Hear it
 
-- ##### [Connect any passive speaker to Home Assistant - HouseWaves-Legacy](https://www.youtube.com/watch?v=QI0uxf1yy9A)
+- **[Connect any passive speaker to Home Assistant - HouseWaves-Legacy](https://www.youtube.com/watch?v=QI0uxf1yy9A)**
 
 
 
@@ -38,7 +38,7 @@
 
 - [Option to Purchase - Ready to Connect](#option-to-purchase---assembled-tested-ready-to-connect)
 
-- [Caveats & Limitations](#caveats--limitations)
+- [Thanks, Caveats & Limitations](#thanks-caveats--limitations)
 
 - [Parts & Materials](#parts--materials)
 
@@ -58,11 +58,11 @@
 
 ## What This Is 
 
-- A documented process to quickly connect almost any passive speaker to Home Assistant, avoiding the need to purchase a separate streaming amplifier that require speaker wires.
+- A documented process to quickly connect almost any passive speaker to Home Assistant, avoiding the need to purchase a separate streaming amplifier that still requires wires to connect each speaker.
 
 - A DIY guide to adding a really exceptional open-source ESP32-based controller from Sonocotta with integrated DAC, DSP and AMP with existing, open-source firmware to stream using SendSpin, Snapcast, Squeezelite or even AirPlay 2 protocols.<br/>In this guide, I will provide directions to flash with ESPHome/SendSpin.
 
-- Provide a viable and much less expensive alternative to purchasing Sonos, Wiim, Edifier, et. al. speakers to obtain satisfying multi-room synchronized audio without the specialized integrations, cloud services or complex customizations that are generally needed for streaming audio and TTS notifications.
+- Provide a viable and much less expensive alternative to purchasing Sonos, Wiim, Edifier, et al. speakers to obtain satisfying multi-room synchronized audio without the specialized integrations, cloud services or complex customizations that are generally needed for streaming audio and TTS notifications.
 
 - **Part of a planned series modifying a range of speakers and other audio devices at multiple price points and corresponding sound quality.**
   — see [What's Next](#whats-next) for planned future builds.
@@ -90,11 +90,11 @@ I wanted to change that.
 
 It sounded great!  But $250 / speaker was not what people wanted. 
 
-***My second project*** was a much lower cost version based on a commonly available single-driver speaker available on Amazon.<br/>A desktop-sized solution, with limited power and frequency range, but ideal for replicating in multiple rooms primarily for notifications and occasionally listening to music (or secondary rooms as part of a whole home, multi-room system).<br/>   [V2 - $60 DIY WiFi & BT audio speaker for Home Assistant, with ESP32 - Squeezelite or SendSpin : r/homeassistant](https://www.reddit.com/r/homeassistant/comments/1skggdr/v2_60_diy_wifi_bt_audio_speaker_for_home/)
+***My second project*** was a much lower cost version based on a commonly available single-driver speaker available on Amazon.<br/>A desktop-sized solution, with limited power and frequency range, but ideal for replicating in multiple rooms primarily for notifications and occasionally listening to music (or secondary rooms as part of a whole home, multi-room system).<br/> [V2 - $60 DIY WiFi & BT audio speaker for Home Assistant, with ESP32 - Squeezelite or SendSpin : r/homeassistant](https://www.reddit.com/r/homeassistant/comments/1skggdr/v2_60_diy_wifi_bt_audio_speaker_for_home/)
 
-**My third project** was an off-the-shelf dual-driver, compact bookshelf speaker capable of providing quality audio with 15W to adequately fill small rooms of your home in a cabinet slightly larger than a desktop speaker.  [V3 - $90 DIY Home Assistant bookshelf speaker for Home Assistant](https://www.reddit.com/r/musicassistant/comments/1t6ah47/v3_diy_90_home_assistant_bookshelf_speaker_for/)
+**My third project** was an off-the-shelf dual-driver, compact bookshelf speaker capable of providing quality audio with 15W to adequately fill small rooms of your home in a cabinet slightly larger than a desktop speaker.<br/> [V3 - $90 DIY compact bookshelf speaker for Home Assistant](https://www.reddit.com/r/musicassistant/comments/1t6ah47/v3_diy_90_home_assistant_bookshelf_speaker_for/)
 
-**My fourth project** was a larger - but still bookshelf-sized - dual-driver speaker capable of providing decent bass with significant amplification from 30W of power.  This is getting close to a substitute for home audio systems. 
+**My fourth project** was a larger - but still bookshelf-sized - dual-driver speaker capable of providing decent bass with significant amplification from 30W of power.  This is getting close to a substitute for home audio systems.<br/> [V4 - $125 DIY larger bookshelf speaker for Home Assistant ](https://github.com/HouseWaves/home-assistant-audio-speaker-v4)
 
 -------
 
@@ -140,9 +140,9 @@ Please check out my site, [GetHouseWaves.com](https://gethousewaves.com/hw-legac
 
 - ***Max power with USB-C adapter is around 10W - enough for bookshelf speakers.*** 
 
-- ***For larger speakers, use Sonocotta's Louder Plus with a dedicated power supply for 30W.*** 
+- ***For larger speakers, use Sonocotta's Louder-Plus with a dedicated power supply for 30W.*** 
 
-  - Speakers with large drivers (woofers over 5"), floor-standing speakers and similar require power for amplification. The Loud will work, but the LOUDER-Plus will provide better amplification.
+  - Speakers with large drivers (woofers over 5"), floor-standing speakers and similar require power for amplification. LOUDER will work; LOUDER-PLUS will provide better amplification. Sonocotta boards do not currently use USB-PD (it's coming), so you will need external power for anything over 10W.
   
   
 
@@ -157,22 +157,22 @@ Prices shown are approximate USD and include shipping, taxes and customs fees (t
 
 Adjust quantities if you plan to use a pair of speakers.
 
-Links are for the actual products I purchased for building the POC.
+Links are for the actual products I purchased for building this project.
 
 <br/>
 
 
 | #    | Component                                                    | Qty  | Price | Notes                                                        |
 | ---- | ------------------------------------------------------------ | ---- | ----- | ------------------------------------------------------------ |
-| 1    | [Sonocotta LOUDER ESP32](https://www.elecrow.com/louder-esp32.html) <br/>Sold by Elecrow <br/><br/>or<br/><br/> [Sonocotta LOUDER ESP32](https://lectronz.com/products/louder-esp32-plus) - Sold by Lectronz | 1    | $30   | ESP32 with integrated DAC & AMP; <br />- no Ethernet module; <br/>- add $5 RPi case unless printing one<br/> <br/>Elecrow based in China but delivers to US with lower shipping & customs fees. <br/><br/>Lectronz is based in EU for purchasing directly from Andriy at Sonocotta <br/> <br/>There are currently no US based suppliers for these boards.<br/><br/>**buy two if modifying both speakers.** |
+| 1    | [Sonocotta LOUDER ESP32](https://www.elecrow.com/louder-esp32.html) <br/>Sold by Elecrow <br/><br/>or<br/><br/> [Sonocotta LOUDER ESP32](https://lectronz.com/products/louder-esp32) - Sold by Lectronz | 1    | $30   | ESP32 with integrated DAC & AMP; <br />- no Ethernet module; <br/>- add $5 RPi case unless printing one<br/> <br/>Elecrow based in China but delivers to US with lower shipping & customs fees. <br/><br/>Lectronz is based in EU for purchasing directly from Andriy at Sonocotta <br/> <br/>There are currently no US based suppliers for these boards.<br/><br/>**buy two if modifying both speakers.** |
 | 2    | [16 AWG hookup or speaker wire](https://www.amazon.com/dp/B0B9J91SJ8) | 1    | $7    | wire to connect the board to your speaker terminals. Anything over 18 gauge is too thick for the board's screw terminals |
 | 3    | [Adhesive tabs](https://www.amazon.com/dp/B0CSJP7X93)        | 1    | $8    | These things are fantastic for a project like this - sticky like 3M Command strips but can be easily removed. |
-| 4    | Raspberry Pi case - purchased or printed                     | 1    | $5    | Purchase as an add-on option with the board, use your own or 3D print. <br/>PSA: RPi cases vary significantly in their opening locations and sizes; You may need to cut out the opening for the USB-C connector.<br/> **buy or print two if modifying both speakers.** |
+| 4    | Raspberry Pi case - purchased or printed                     | 1    | $5    | Purchase as add-on option with Sonocotta board, use your own or 3D print one from a maker site. <br/>PSA: RPi cases vary significantly in their opening locations and sizes; You may need to cut out the opening for the USB-C connector.<br/> **buy or print two if modifying both speakers.** |
 |      |                                                              |      |       |                                                              |
 
 
 
-![legacy_connect_passive_speakers_to_Home_Assistant](images/legacy_connect_passive_speakers_to_Home_Assistant.jpg)
+![legacy-connect-passive-speakers-to-Home-Assistant](images/legacy-connect-passive-speakers-to-Home-Assistant.jpg)
 
 
 
@@ -210,7 +210,7 @@ Links are for the actual products I purchased for building the POC.
    
 
 
-![stripped_wire_leads_connect_speakers_to_music_assistant](images/stripped_wire_leads_connect_speakers_to_music_assistant.jpg)
+![stripped-wire-leads-connect-speakers-to-music-assistant](images/stripped-wire-leads-connect-speakers-to-music-assistant.jpg)
 
 *Closeup of the stripped wires for the PCB connectors.*
 
@@ -233,13 +233,13 @@ Links are for the actual products I purchased for building the POC.
 
    
 
-![PBTL_jumpers_sendspin_connecting_passive_speakers](images/PBTL_jumpers_sendspin_connecting_passive_speakers.jpg)
+![PBTL-jumpers-sendspin-connecting-passive-speakers](images/PBTL-jumpers-sendspin-connecting-passive-speakers.jpg)
 
 *Closeup of the jumper connectors from a breadboard kit. Use bare wires as an alternative.*
 
 
 
-![PBTL_jumpers_for_Sonocotta_Louder_amplifier](images/PBTL_jumpers_for_Sonocotta_Louder_amplifier.jpg)
+![PBTL-jumpers-for-Sonocotta-Louder-amplifier](images/PBTL-jumpers-for-Sonocotta-Louder-amplifier.jpg)
 
 *Closeup of the jumpers - "shorting" - left and right speaker connectors - This is correct for PBTL amplification.*
 
@@ -257,7 +257,7 @@ Links are for the actual products I purchased for building the POC.
 
    
 
-![Sonocotta_PBTL_connecting_wires_passive_speakers_for_home_assistant](images/Sonocotta_PBTL_connecting_wires_passive_speakers_for_home_assistant.jpg)
+![Sonocotta-PBTL-connecting-wires-passive-speakers-for-home-assistant](images/Sonocotta-PBTL-connecting-wires-passive-speakers-for-home-assistant.jpg)
 *Connecting the speaker wires with jumpers to use PBTL on the Sonocotta LOUDER ESP32 circuit board.*
 
 
@@ -272,11 +272,11 @@ Links are for the actual products I purchased for building the POC.
 
 
 
-![adhesive_pads_mount_esp32_to_passive_speakers](images/adhesive_pads_mount_esp32_to_passive_speakers.jpg)
+![adhesive-pads-mount-esp32-to-passive-speakers](images/adhesive-pads-mount-esp32-to-passive-speakers.jpg)
 
 
 
-![sonocotta_home_assistant_audio_for_bookshelf_speakers](images/sonocotta_home_assistant_audio_for_bookshelf_speakers.jpg)
+![sonocotta-home-assistant-audio-for-bookshelf-speakers](images/sonocotta-home-assistant-audio-for-bookshelf-speakers.jpg)
 
 *Sonocotta Louder ESP32 board mounted to an existing legacy speaker.*
 
@@ -291,7 +291,7 @@ Links are for the actual products I purchased for building the POC.
 
 
 
-![connected_legacy_speakers_to_esphome_home_assistant](images/connected_legacy_speakers_to_esphome_home_assistant.jpg)
+![connected-legacy-speakers-to-esphome-home-assistant](images/connected-legacy-speakers-to-esphome-home-assistant.jpg)
 
 *The ESP32 audio board is ready for flashing firmware to connect your speaker to Home Assistant.*
 
@@ -301,15 +301,13 @@ Links are for the actual products I purchased for building the POC.
 
 ### Step 6 — Flash the ESP32 audio board 
 
-Sonocotta offers you several options for firmware - all are tested and ready to install. Options include ESPHome with SendSpin or Snapcast, Squeezelite, custom and [even using AirPlay 2](https://sonocotta.com/esparagus-with-airplay-2/). You may use any of them and switch, installing a new one at any time. 
-
-There are matrices that discuss the pros and cons of each option. [This is a good starting point to review.](https://sonocotta.com/loud-esp32/) 
+Sonocotta offers you several options for firmware - all are tested and ready to install. Options include ESPHome with SendSpin or Snapcast, Squeezelite, AirPlay, AirPlay2 and custom. You may use any of them and switch to a new one at any time. You are never locked in.
 
 Home Assistant's standard is SendSpin - a very good option for synchronized audio and easily connecting devices to Home Assistant as it auto-discovers these devices making it quickly available for use by Music Assistant and your TTS integrations. 
 
-This is the tutorial to help you Install ESPHome with SendSpin
+This is the [tutorial to help you Install ESPHome with SendSpin](https://github.com/HouseWaves/home-assistant-passive-speaker-amplifier-v5/blob/main/README-Firmware-Flash-SendSpin.md)
 
-### WARNING - For any firmware used, you must enable PBTL mode or you will short out and damage your amplifier.
+**WARNING - For any firmware used, you must enable PBTL mode or you will short out and damage your amplifier.**
 
 
 
@@ -338,7 +336,7 @@ This is **Build #6** in a planned series of passive-to-active speaker conversion
 
 ## Preview of HouseWaves-Stream
 
-##### Coming soon...
+*Coming soon...*
 
 
 
