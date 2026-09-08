@@ -26,7 +26,7 @@ This is a Home Assistant application that onboards and prepares ESP32  (and othe
 
 4. Select the one with no additional names (not Experimental, not Developer)...just plain "ESPHome Device Builder"
 
-   ![1_sendspin_esphome_esphome_device_builder_housewaves_and_loud_esp32](images-senspin-install/1_sendspin_esphome_esphome_device_builder_housewaves_and_loud_esp32.jpg)
+   ![1-sendspin-esphome-esphome-device-builder-housewaves-and-loud-esp32](images-sendspin-install/1-sendspin-esphome-esphome-device-builder-housewaves-and-loud-esp32.jpg)
 
 
 
@@ -44,7 +44,7 @@ This is a Home Assistant application that onboards and prepares ESP32  (and othe
 
    
 
-   ![3_sendspin_esphome_basic_firmware_install_for_housewaves_and_loud_esp32](images-senspin-install/3_sendspin_esphome_basic_firmware_install_for_housewaves_and_loud_esp32.jpg)
+   ![3-sendspin-esphome-basic-firmware-install-for-housewaves-and-loud-esp32](images-sendspin-install/3-sendspin-esphome-basic-firmware-install-for-housewaves-and-loud-esp32.jpg)
 
 5. Wait for the firmware to install
 
@@ -55,13 +55,13 @@ This is a Home Assistant application that onboards and prepares ESP32  (and othe
 
    
 
-   ![4_sendspin_esphome_save_entity_id_housewaves_and_loud_esp32](images-senspin-install/4_sendspin_esphome_save_entity_id_housewaves_and_loud_esp32.jpg)
+   ![4-sendspin-esphome-save-entity-id-housewaves-and-loud-esp32](images-sendspin-install/4-sendspin-esphome-save-entity-id-housewaves-and-loud-esp32.jpg)
 
 7. Enter your home Wi-Fi credentials
 
 8. Click Connect
 
-   ![5_sendspin_esphome_connect_network_housewaves_and_loud_esp32](images-senspin-install/5_sendspin_esphome_connect_network_housewaves_and_loud_esp32.jpg)
+   ![5-sendspin-esphome-connect-network-housewaves-and-loud-esp32](images-sendspin-install/5-sendspin-esphome-connect-network-housewaves-and-loud-esp32.jpg)
 
 9. When HA connects to the device, you have completed the Initial Provisioning
 
@@ -69,7 +69,7 @@ This is a Home Assistant application that onboards and prepares ESP32  (and othe
 
 11. Keep the web browser open for the next step
 
-     ![6_sendspin_esphome_speaker_provisioned_housewaves_and_loud_esp32](images-senspin-install/6_sendspin_esphome_speaker_provisioned_housewaves_and_loud_esp32.jpg)
+     ![6-sendspin-esphome-speaker-provisioned-housewaves-and-loud-esp32](images-sendspin-install/6-sendspin-esphome-speaker-provisioned-housewaves-and-loud-esp32.jpg)
 
 
 
@@ -87,7 +87,7 @@ ESPHome Device Builder will need a configuration file used in building the firmw
 
 2. Download the [YAML configuration file for LOUDER-ESP32-IDF-SENDSPIN](https://github.com/sonocotta/esp32-audio-dock/blob/main/firmware/esphome/3-louder-esp32/louder-esp32-idf-sendspin.yaml): 
 
-   ![](images-senspin-install/sendspin_esphome_yaml_for_housewaves_and_loud_esp32.jpg)
+   ![](images-sendspin-install/sendspin-esphome-yaml-for-housewaves-and-loud-esp32.jpg)
 
 3. Open in a text editor (e.g. Notepad in Windows)
 
@@ -123,7 +123,7 @@ ESPHome Device Builder will need a configuration file used in building the firmw
 
 2. Click on SECRETS in the top right corner
 
-   ![10_sendspin_esphome_builder_start_screen_housewaves_and_loud_esp32](images-senspin-install/10_sendspin_esphome_builder_start_screen_housewaves_and_loud_esp32.jpg)
+   ![10-sendspin-esphome-builder-start-screen-housewaves-and-loud-esp32](images-sendspin-install/10-sendspin-esphome-builder-start-screen-housewaves-and-loud-esp32.jpg)
 
 3. Add the top 4 lines to the secrets.yaml file, replacing everything in the quotes with your network ssid and password
 
@@ -131,33 +131,33 @@ ESPHome Device Builder will need a configuration file used in building the firmw
 
      **NOTE - this SECRETS file is different than the secrets yaml file created in HA Configuration**
 
-   ![11_sendspin_esphome_builder_save_secrets_housewaves_and_loud_esp32](images-senspin-install/11_sendspin_esphome_builder_save_secrets_housewaves_and_loud_esp32.jpg)
+   ![11-sendspin-esphome-builder-save-secrets-housewaves-and-loud-esp32](images-sendspin-install/11-sendspin-esphome-builder-save-secrets-housewaves-and-loud-esp32.jpg)
 
 4. Click SAVE
 
 5. in the black bar across the top, it should say it has discovered your new advice - Click SHOW on the far right side
 
-   ![10_sendspin_esphome_builder_start_screen_housewaves_and_loud_esp32](images-senspin-install/10_sendspin_esphome_builder_start_screen_housewaves_and_loud_esp32.jpg)
+   ![10-sendspin-esphome-builder-start-screen-housewaves-and-loud-esp32](images-sendspin-install/10-sendspin-esphome-builder-start-screen-housewaves-and-loud-esp32.jpg)
 
 6. Your new controller will have it's own box
 
-   ![12_sendspin_esphome_builder_show_discovered_device_housewaves_and_loud_esp32](images-senspin-install/12_sendspin_esphome_builder_show_discovered_device_housewaves_and_loud_esp32.jpg)
+   ![12-sendspin-esphome-builder-show-discovered-device-housewaves-and-loud-esp32](images-sendspin-install/12-sendspin-esphome-builder-show-discovered-device-housewaves-and-loud-esp32.jpg)
 
 7. Click "TAKE CONTROL"
 
 8. Acknowledge the warnings and Click TAKE CONTROL in the new popup box
 
-   ![15_sendspin_esphome_builder_take_control_housewaves_and_loud_esp32](images-senspin-install/15_sendspin_esphome_builder_take_control_housewaves_and_loud_esp32.jpg)
+   ![15-sendspin-esphome-builder-take-control-housewaves-and-loud-esp32](images-sendspin-install/15-sendspin-esphome-builder-take-control-housewaves-and-loud-esp32.jpg)
 
 9. in the next popup box "Configuration Created" - **Do NOT Click INSTALL - Click SKIP instead**
 
-   ![14_sendspin_esphome_builder_ready_to_install_housewaves_and_loud_esp32](images-senspin-install/14_sendspin_esphome_builder_ready_to_install_housewaves_and_loud_esp32.jpg)
+   ![14-sendspin-esphome-builder-ready-to-install-housewaves-and-loud-esp32](images-sendspin-install/14-sendspin-esphome-builder-ready-to-install-housewaves-and-loud-esp32.jpg)
 
 10. You will return to the main window
 
 11. You new device will now have TWO options on the bottom: EDIT and LOGS
 
-    ![16_sendspin_esphome_builder_edit_device_housewaves_and_loud_esp32](images-senspin-install/16_sendspin_esphome_builder_edit_device_housewaves_and_loud_esp32.jpg)
+    ![16-sendspin-esphome-builder-edit-device-housewaves-and-loud-esp32](images-sendspin-install/16-sendspin-esphome-builder-edit-device-housewaves-and-loud-esp32.jpg)
 
 12. Click EDIT
 
@@ -165,7 +165,7 @@ ESPHome Device Builder will need a configuration file used in building the firmw
 
 14. DELETE ALL the lines in this yaml file
 
-    ![17.1_sendspin_esphome_builder_copy_paste_yaml_housewaves_and_loud_esp32](images-senspin-install/17.1_sendspin_esphome_builder_copy_paste_yaml_housewaves_and_loud_esp32.jpg)
+    ![17-1-sendspin-esphome-builder-copy-paste-yaml-housewaves-and-loud-esp32](images-sendspin-install/17-1-sendspin-esphome-builder-copy-paste-yaml-housewaves-and-loud-esp32.jpg)
 
 15. Go back to your text editor with the YAML file you created in STEP 3
 
@@ -173,7 +173,7 @@ ESPHome Device Builder will need a configuration file used in building the firmw
 
 17. PASTE ALL lines into the ESPHome screen
 
-    ![17.2_sendspin_esphome_builder_copy_paste_yaml_housewaves_and_loud_esp32](images-senspin-install/17.2_sendspin_esphome_builder_copy_paste_yaml_housewaves_and_loud_esp32.jpg)
+    ![17-2-sendspin-esphome-builder-copy-paste-yaml-housewaves-and-loud-esp32](images-sendspin-install/17-2-sendspin-esphome-builder-copy-paste-yaml-housewaves-and-loud-esp32.jpg)
 
 18. Click SAVE in the upper right corner
 
@@ -181,7 +181,7 @@ ESPHome Device Builder will need a configuration file used in building the firmw
 
 20. Click Wirelessly in the new popup box
 
-    ![18_sendspin_esphome_builder_install_wirelessly_housewaves_and_loud_esp32](images-senspin-install/18_sendspin_esphome_builder_install_wirelessly_housewaves_and_loud_esp32.jpg)
+    ![18-sendspin-esphome-builder-install-wirelessly-housewaves-and-loud-esp32](images-sendspin-install/18-sendspin-esphome-builder-install-wirelessly-housewaves-and-loud-esp32.jpg)
 
 21. WHEW --- Your work is done;  Time for HA to compile and install the firmware
 
@@ -189,7 +189,7 @@ ESPHome Device Builder will need a configuration file used in building the firmw
 
 23. **This is when everything gets really, really slow, do not be alarmed if nothing changes for 5 or more minutes as the compiler begins preparing.**
 
-    ![19.0_sendspin_esphome_builder_log_screen_compiling_starts_housewaves_and_loud_esp32](images-senspin-install/19.0_sendspin_esphome_builder_log_screen_compiling_starts_housewaves_and_loud_esp32.jpg)
+    ![19-0-sendspin-esphome-builder-log-screen-compiling-starts-housewaves-and-loud-esp32](images-sendspin-install/19-0-sendspin-esphome-builder-log-screen-compiling-starts-housewaves-and-loud-esp32.jpg)
 
 24. After what seems like an eternity, you will see the screen begin to fill up with hundreds of lines as it reads each component of the code library.
 
@@ -197,7 +197,7 @@ ESPHome Device Builder will need a configuration file used in building the firmw
 
 26. Several lines in this summary should start with "Successfully created..."
 
-    ![19.2_sendspin_esphome_builder_log_screen_compiling_success_housewaves_and_loud_esp32](images-senspin-install/19.2_sendspin_esphome_builder_log_screen_compiling_success_housewaves_and_loud_esp32.jpg)
+    ![19-2-sendspin-esphome-builder-log-screen-compiling-success-housewaves-and-loud-esp32](images-sendspin-install/19-2-sendspin-esphome-builder-log-screen-compiling-success-housewaves-and-loud-esp32.jpg)
 
 27. If everything works, your device will reboot and you'll see a screen similar to below.
 
@@ -207,7 +207,7 @@ ESPHome Device Builder will need a configuration file used in building the firmw
 
     OPTIONAL - You may want to keep this screen open - while you open another window with Music Assistant to start using your new SendSpin speaker.  It can be interesting to follow the status messages as you begin to stream audio.
 
-    ![19.3_sendspin_esphome_builder_log_screen_sendspin_speaker_ready_housewaves_and_loud_esp32](images-senspin-install/19.3_sendspin_esphome_builder_log_screen_sendspin_speaker_ready_housewaves_and_loud_esp32.jpg)
+    ![19-3-sendspin-esphome-builder-log-screen-sendspin-speaker-ready-housewaves-and-loud-esp32](images-sendspin-install/19-3-sendspin-esphome-builder-log-screen-sendspin-speaker-ready-housewaves-and-loud-esp32.jpg)
 
 28. When you're finished - Click STOP and your done.
 
